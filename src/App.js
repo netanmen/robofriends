@@ -1,21 +1,17 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import CardList from './CardList';
+import SearchBox from './SearchBox';
+import {robots} from './robots';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+const App = () => {
+	return (
+		<div className='main-container'>
+			<SearchBox className='searchbox'/>
+			<CardList className='cardlist' robots={robots}/>
+		</div>
+	);
 }
 
 export default App;
+			// <input className='searchbox' type='text' placeholder='Search...'/>

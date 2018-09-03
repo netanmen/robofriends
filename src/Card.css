@@ -1,0 +1,19 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: black;
+	border: 1px solid black;
+	border-radius: 10%;
+	text-align: center;
+	transition: all 0.2s ease-in-out;
+	transform: scale(1);
+	margin: 15px 15px;
+	padding: 1px 1px;
+	width: 220px;
+}
+
+.container:hover {
+	transition: all 0.2s ease-in-out;
+	transform: scale(1.1);
+}
