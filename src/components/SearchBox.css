@@ -1,9 +1,14 @@
 .search-container {
 	display: flex;
+	margin-bottom: 50px;
 	/*height: 25px;*/
 	/*height: 10px;*/
 }
 
+#search-input {
+	padding: 5px;
+}
+/*
 #search-button  {
 	display: flex;
 	justify-content: center;
@@ -14,8 +19,4 @@
 	width: 25px;
 	height: 25px;
 }
-
-.search-container + (input, button, img) {
-	/*height:10px;*/
-}
-
+*/
